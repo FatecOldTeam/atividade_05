@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/atividade_05/static/css/main.0f7df321.css",
+    "main.js": "/atividade_05/static/js/main.688d1ecf.js",
+    "static/media/cafe-image1.png": "/atividade_05/static/media/cafe-image1.5c3dd897e603fc6b80ab.png",
+    "static/media/pizza.jpg": "/atividade_05/static/media/pizza.cb791cd2702154b17acb.jpg",
+    "static/media/bolo.jpg": "/atividade_05/static/media/bolo.23d56e793ffa62940a68.jpg",
+    "static/media/tapioca.jpg": "/atividade_05/static/media/tapioca.e836a876c3011aa0f952.jpg",
+    "static/media/paoDeQueijo.jpg": "/atividade_05/static/media/paoDeQueijo.36f2f54f937deaa7b619.jpg",
+    "index.html": "/atividade_05/index.html",
+    "main.0f7df321.css.map": "/atividade_05/static/css/main.0f7df321.css.map",
+    "main.688d1ecf.js.map": "/atividade_05/static/js/main.688d1ecf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7df321.css",
+    "static/js/main.688d1ecf.js"
+  ]
+}
