@@ -1,0 +1,255 @@
+/* Estilos para o Header */
+.header {
+    /* Espaço interno no header */
+        padding: 20px;
+        /* Sombra sutil */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    background-color: #fff;
+    height: 100px;
+    /* Altura do logo */
+    margin-right: 40px;
+    /* Espaço entre o logo e o nome do site */
+}
+
+.header .navbar-link {
+    color: #333;
+    /* cor padrão dos links */
+    text-decoration: none;
+    /* remova sublinhado dos links */
+    transition: color 0.3s;
+    /* transição suave para mudança de cor */
+}
+
+.header .navbar-link:hover {
+    color: #007bff;
+    /* cor dos links no hover */
+}
+
+/* .header .navbarlink {
+    color: #10034b;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.header .navbarlink:hover {
+    color: #907459;
+} */
+
+.about-us {
+    background-color: #f2f2f2;
+        /* Bege claro */
+        color: #333;
+        /* Marrom escuro */
+}
+
+.menu {
+    background-color: #fff;
+        /* Branco */
+        color: #333;
+        /* Marrom escuro */
+}
+
+.gallery {
+    background-color: #f5f5f5;
+        /* Branco acinzentado */
+        color: #333;
+        /* Marrom escuro */
+}
+
+footer {
+    background-color: #333;
+        /* Marrom escuro */
+        color: #fff;
+        /* Branco */
+}
+
+/* Tipografia */
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Layout */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.menu .item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos Gerais */
+body {
+    background-image: url('../public/image/cafe-image1.png');
+        /* Caminho da sua imagem */
+        background-size: cover;
+        /* Cobertura total do header */
+        background-position: center;
+        /* Posição central da imagem */
+        color: #fff;
+        /* Cor do texto branco para contraste */
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+        /* Altura total da tela */
+        width: 100vw;
+        /* Largura total da tela */
+
+}
+
+
+.navbar-light .navbar-brand {
+    color: #333;
+        /* Marrom escuro */
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+        /* Marrom escuro */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+        /* Azul escuro */
+}
+
+/* Estilos para a Seção Hero */
+.hero {
+    background-size: cover;
+        /* Cobertura total do header */
+        background-position: center;
+        /* Posição central da imagem */
+        color: #fff;
+        /* Branco */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.hero button {
+    background-color: #007bff;
+        /* Azul escuro */
+        color: #fff;
+        /* Branco */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Estilos para as Caixas do Cardápio */
+.menu .card {
+    flex: 1 0 300px;
+        /* Tamanho base de 300px */
+        margin: 10px;
+        /* Espaçamento entre as caixas */
+        border: 1px solid #ddd;
+        /* Borda fina */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        /* Sombra sutil */
+        text-align: center;
+        /* Alinha o texto no centro */
+    padding: 20px;
+}
+
+.menu .card img {
+    width: 100%;
+        /* Imagem ocupa toda a largura da caixa */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    margin-bottom: 10px;
+}
+
+.menu .card h5 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.menu .card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.menu .card .btn {
+    background-color: #007bff;
+        /* Azul escuro */
+        color: #fff;
+        /* Branco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.menu .card:hover {
+    background-color: #f2f2f2;
+        /* Cor de fundo no hover */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        /* Sombra mais forte no hover */
+        transform: scale(1.05);
+        /* Aumenta a escala da caixa no hover (opcional) */
+        transition: transform 0.3s ease-in-out;
+        /* Animação suave */
+}
+
+/* Estilos para a gallery de Imagens */
+.gallery .image {
+    border: none;
+        /* Remove a borda padrão das cartas */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        /* Sombra sutil */
+}
+
+.gallery .card img {
+    border-radius: 10px;
+        /* Arredonda os cantos das imagens */
+        transition: transform 0.3s ease-in-out;
+        /* Animação suave no hover */
+}
+
+.gallery .card img:hover {
+    transform: scale(1.05);
+        /* Aumenta a escala da imagem no hover (opcional) */
+}
+
+.gallery .card .card-body {
+    padding: 10px;
+}
